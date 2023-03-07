@@ -30,13 +30,23 @@ function App() {
       </div>
      
     
-      <div class="mx-auto flex max-w-screen-sm items-center justify-center rounded-md">
-  <div class="h-36 w-full rounded-md bg-gradient-to-r from-red-600 via-yellow-500 via-fuchsia-500 via-violet-800 to-blue-700 p-1">
-    <div class="flex h-full w-full items-center justify-center bg-slate-700 back">
-      <h1 class="text-2xl font-black text-white">Here is the nice box</h1>
+      <div className="mx-auto flex max-w-screen-sm items-center justify-center rounded-md m-3">
+      <div className="h-36 w-full rounded-md bg-gradient-to-r from-red-600 via-yellow-500 via-fuchsia-500 via-violet-800 to-blue-700 p-1">
+        <div className="flex h-full w-full items-center justify-center bg-slate-700 back">
+          <h1 className="text-2xl font-black text-white">Here is the nice box</h1>
+        </div>
+      </div>
     </div>
-  </div>
-</div>
+
+    <div className="mx-auto flex max-w-screen-sm items-center justify-center rounded-md m-3">
+      <div className="h-36 w-full rounded-md bg-gradient-to-r from-red-600 via-yellow-500 via-fuchsia-500 via-violet-800 to-blue-700 p-1">
+        <div className="flex h-full w-full items-center justify-center bg-slate-700 back">
+          <h1 className="text-2xl font-black text-white">Here is the nice box</h1>
+          <div className = ""></div>
+          <h1 className="text-2xl font-black text-white">Here is the nice box</h1>
+        </div>
+      </div>
+    </div>
       
     </div>
   );
