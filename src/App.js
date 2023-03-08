@@ -53,7 +53,9 @@ function App() {
     </div>
 
     <div className='blob'>
+      <animate attributeName='d'>
 
+      </animate>
     </div>
       
     </div>
