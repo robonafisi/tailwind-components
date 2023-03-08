@@ -9,26 +9,29 @@ body{
 .blob { 
   width: 400px;
   height: 389px;
-  background-size: cover;
-  background-repeat: no-repeat;
+  box-shadow: 30px 10px 40px #4444dd;
+  /* background-size: cover;
   background-image: url("data:image/svg+xml;utf8,%3Csvg xmlns=%22http:%2F%2Fwww.w3.org%2F2000%2Fsvg%22 width=%22816.413%22 height=%22789.462%22 viewBox=%22104.93 150.496 816.413 789.462%22%3E%3Cdefs%3E%3CradialGradient id=%22b%22 r=%22100%25%22 cx=%2229%25%22 cy=%2250%25%22%3E%3Cstop offset=%220%25%22 stop-color=%22%2321D4FD%22%2F%3E%3Cstop offset=%22100%25%22 stop-color=%22%23B721FF%22%2F%3E%3C%2FradialGradient%3E%3CclipPath id=%22a%22%3E%3Cpath fill=%22currentColor%22 d=%22M877.5 648Q796 796 648 895t-276-20Q244 756 152.5 628t-7-263Q230 230 365 182.5T659.5 158Q819 181 889 340.5T877.5 648Z%22%2F%3E%3C%2FclipPath%3E%3C%2Fdefs%3E%3Cg clip-path=%22url(%23a)%22%3E%3Cpath fill=%22url(%23b)%22 d=%22M877.5 648Q796 796 648 895t-276-20Q244 756 152.5 628t-7-263Q230 230 365 182.5T659.5 158Q819 181 889 340.5T877.5 648Z%22%2F%3E%3C%2Fg%3E%3C%2Fsvg%3E");
   animation: blob;
   animation-duration: 4s;
-  animation-iteration-count: 3;
+  animation-iteration-count: 3; */
 }
 
 
-.blob:hover { 
+/* .blob:hover { 
   animation-name: blob;
-  animation-duration: 0.7s;
-  animation-delay: 2s;
-}
+  animation-duration: 2.7s;
+} */
 
 @keyframes blob {
   0% {
-    transform: rotate(0);
+    transform: rotate(0deg);
+    width: 0px;
+    height: 0px;
   }
   100% {
-    transform: rotate(360deg);
+    transform: rotate(359deg);
+    width: 400px;
+    height: 389px;
   }
 }
