@@ -5,3 +5,7 @@
 body{
   background-color: #1f2937;
 }
+
+:root {
+  cursor: url(//public/blobcursor.png), auto;
+}

@@ -48,7 +48,7 @@ function App() {
       </div>
     </div>
 
-    <div flex items-center justify-center text-center>
+    <div className='text-center'>
       <p className='text-white'>Hello!</p>
     </div>
       
