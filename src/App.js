@@ -51,6 +51,10 @@ function App() {
     <div className='text-center'>
       <p className='text-white'>Hello!</p>
     </div>
+
+    <div className='blob'>
+
+    </div>
       
     </div>
   );
