@@ -22,10 +22,6 @@ body{
 }
 
 
-/* .blob:hover { 
-  animation-name: blob;
-  animation-duration: 2.7s;
-} */
 
 @keyframes blob-one {
   0% {
@@ -53,9 +49,9 @@ body{
 }
 
 .blob-two { 
-  width: 40px;
+  width: 0px;
   height: 38px;
-  left: 28%;
+  left: 20%;
   box-shadow: 0px 0px 40px 20px #4444dd;
   background-color: #1f2937;
   background-size: cover;
@@ -63,6 +59,8 @@ body{
   animation-duration: 3s;
   animation-iteration-count: 1;
   border-radius: 20px;
+  opacity: 0;
+  animation-timing-function: steps(5, end);
 }
 
 
@@ -72,15 +70,32 @@ body{
     width: 0px;
     height: 0px;
     visibility: hidden;
+    opacity: 100;
   }
   50% {
     transform: rotate(330deg);
     width: 40px;
     height: 38px;
+    opacity: 100;
   }
   100% {
     transform: rotate(0deg);
     width: 0px;
     height: 0px;
+    opacity: 0;
   }
+}
+
+.blob-holder { 
+  width: 0px;
+  height: 38px;
+  left: 20%;
+  box-shadow: 0px 0px 40px 20px #4444dd;
+  background-color: #1f2937;
+  background-size: cover;
+  animation: blob-two;
+  animation-duration: 3s;
+  animation-iteration-count: 1;
+  border-radius: 20px;
+  opacity: 0;
 }
